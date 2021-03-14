@@ -7,13 +7,15 @@ function isMobile() {
 }
 
 function activateButton(b) {
-	b.childNodes[3].style.borderBottom = "3px solid #212121";
-	b.childNodes[3].style.fontWeight = "bold";
+	var text = b.querySelector("#title")
+	text.style.borderBottom = "3px solid #212121";
+	text.style.fontWeight = "bold";
 }
 
 function deactivateButton(b) {
-	b.childNodes[3].style.borderBottom = "none";
-	b.childNodes[3].style.fontWeight = "400";
+	var text = b.querySelector("#title")
+	text.style.borderBottom = "none";
+	text.style.fontWeight = "400";
 }
 
 function buttonFunc(e) {
