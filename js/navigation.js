@@ -49,7 +49,8 @@ var Link = {
 	activate: (e) => {
 		if(Navbar.location != "/free-estimate") {
     		e.style.borderRadius = "4px";
-    		e.style.padding = "0 0.7rem";
+    		e.style.padding = "0 0.6rem";
+			e.style.paddingBottom = "0.2rem";
     		e.style.backgroundColor = Theme.bg_color_inverted;
     		e.style.color = Theme.fg_color_inverted;
 		} else {
