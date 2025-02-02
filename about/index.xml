@@ -1,4 +1,224 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on Cottage Painter</title><link>https://cottagepainter.github.io/about/</link><description>Recent content in About on Cottage Painter</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://cottagepainter.github.io/about/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://cottagepainter.github.io/about/myself/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cottagepainter.github.io/about/myself/</guid><description>My name is Currie Carmichael, I&amp;rsquo;m a professional painter who&amp;rsquo;s been serving the islands between Parry Sound and Moon River since 2016. I&amp;rsquo;ve been a cottager in the area my entire life and am prepared, equipped, and ready to handle any project on the Bay.
-My season generally lasts from mid-May until the end of September.
-I offer, for every service, a firm, quoted price. I believe this is the fairest structure for both parties.</description></item><item><title>Insurance</title><link>https://cottagepainter.github.io/about/insurance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cottagepainter.github.io/about/insurance/</guid><description>Cottage Painter is fully insured by Lloyd&amp;rsquo;s through Martin Merry &amp;amp; Reid Limited.
-Download Copy 🡄 🡆 Page: /</description></item><item><title>Terms and Conditions</title><link>https://cottagepainter.github.io/about/terms-and-conditions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cottagepainter.github.io/about/terms-and-conditions/</guid><description>Definitions The pronoun I, and all other references to the first-person, refer to Currie Carmichael, the Cottage Painter, as well as any of my employees The pronoun you, and all other references to the second-person, refer to the client who hired me The Jobsite, as well as terms like Onsite, refers to both the time and place where all contracted work will take place. possibly several locations/timeframes The Timeframe refers to the period of time during which all contracted work will take place possibly discontinuous The Estimate refers to the estimate you have received from Currie Carmichael The Invoice refers to the invoice you have received from Currie Carmichael The Daily Charge referred to the daily charge stated on your copy of the estimate/invoice A Season refers to a year that Cottage Painter was active The Current Season refers to 2024 You Expect That The final price will reflect the estimated price in most cases they are identical The work will be completed in a timely and professional manner You will not be required to provide equipment You will not be required to provide accommodation You will not be required to provide sustenance The jobsite will be left in a clean state when the job is complete The jobsite will be left in a tidy state between work days however, if the jobsite is not being used by anyone else except me, or if tidiness, for whatever reason is unimportant, I may leave the jobsite in a less then tidy state purely for efficiency reasons All disputes will be dealt with in a reasonable and responsible manner I Expect That Docking is available Doors will be left unlocked Electricity will be available Estimates will be updated every season Equipment can be stored onsite Running water is available The jobsite will be ready when I arrive The timeframe will be respected Docking is available There will be a safe place at the jobsite for my boat to dock.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on Cottage Painter</title><link>https://cottagepainter.github.io/about/</link><description>Recent content in About on Cottage Painter</description><generator>Hugo</generator><language>en</language><atom:link href="https://cottagepainter.github.io/about/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://cottagepainter.github.io/about/myself/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cottagepainter.github.io/about/myself/</guid><description>&lt;p>My name is Currie Carmichael, I&amp;rsquo;m a professional painter who&amp;rsquo;s
+been serving the islands between Parry Sound and Moon River since 2016. I&amp;rsquo;ve been a cottager in the area my entire life and am prepared,
+equipped, and ready to handle any project on the Bay.&lt;/p>
+&lt;p>My season generally lasts from mid-May until the end of September.&lt;/p>
+&lt;p>I offer, for every &lt;a href="https://cottagepainter.github.io/services">service&lt;/a>, a firm, quoted price. I believe this
+is the fairest structure for both parties. The customer gets the
+security of knowing the cost before committing (and thus
+the ability to haggle or shop elsewhere), and I charge the amount
+that I think the job is worth. Personally, I find charging
+by the hour to be undignified.&lt;/p></description></item><item><title>Insurance</title><link>https://cottagepainter.github.io/about/insurance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cottagepainter.github.io/about/insurance/</guid><description>&lt;p>Cottage Painter is fully insured by &lt;em>Lloyd&amp;rsquo;s&lt;/em> through &lt;em>Martin Merry &amp;amp; Reid Limited&lt;/em>.&lt;/p>
+&lt;script type="text/javascript" src="https://cottagepainter.github.io/js/pdf-js/build/pdf.js">&lt;/script>
+&lt;style>
+#the-canvas {
+ border: 1px solid #212121;
+ direction: ltr;
+ width: 100%;
+ height: auto;
+}
+#paginator{
+ text-align: center;
+ margin-bottom: 10px;
+}
+&lt;/style>
+
+
+&lt;div id="paginator" class="embed-pdf-toolbar">
+	&lt;span id="file">&lt;a class="download" href="https://cottagepainter.github.io/pdf/insurance-redacted.pdf">Download Copy&lt;/a>&lt;/span>
+ &lt;span id="prev">🡄&lt;/span>
+ &lt;span id="next">🡆&lt;/span>
+ &lt;span id="counter">Page: &lt;span id="page_num">&lt;/span> / &lt;span id="page_count">&lt;/span>&lt;/span>
+&lt;/div>
+&lt;div id="embed-pdf-container">
+ &lt;canvas id="the-canvas">&lt;/canvas>
+&lt;/div>
+
+&lt;script type="text/javascript">
+window.onload = function() {
+
+
+
+var url = "\/pdf\/insurance-redacted.pdf";
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "\/js\/pdf-js\/build\/pdf.worker.js";
+
+
+var pdfDoc = null,
+ pageNum = 1,
+ pageRendering = false,
+ pageNumPending = null,
+ scale = 3,
+ canvas = document.getElementById('the-canvas'),
+ ctx = canvas.getContext('2d');
+
+
+
+function renderPage(num) {
+ pageRendering = true;
+ 
+ pdfDoc.getPage(num).then(function(page) {
+ var viewport = page.getViewport({scale: scale});
+ canvas.height = viewport.height;
+ canvas.width = viewport.width;
+
+ 
+ var renderContext = {
+ canvasContext: ctx,
+ viewport: viewport
+ };
+ var renderTask = page.render(renderContext);
+
+ 
+ renderTask.promise.then(function() {
+ pageRendering = false;
+ if (pageNumPending !== null) {
+ 
+ renderPage(pageNumPending);
+ pageNumPending = null;
+ }
+ });
+ });
+
+ 
+ document.getElementById('page_num').textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+ if (pageRendering) {
+ pageNumPending = num;
+ } else {
+ renderPage(num);
+ }
+}
+
+
+
+function onPrevPage() {
+ if (pageNum &lt;= 1) {
+ return;
+ }
+ pageNum--;
+ queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+ if (pageNum >= pdfDoc.numPages) {
+ return;
+ }
+ pageNum++;
+ queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+ pdfDoc = pdfDoc_;
+ document.getElementById('page_count').textContent = pdfDoc.numPages;
+
+ 
+ renderPage(pageNum);
+});
+}
+
+&lt;/script></description></item><item><title>Terms and Conditions</title><link>https://cottagepainter.github.io/about/terms-and-conditions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cottagepainter.github.io/about/terms-and-conditions/</guid><description>&lt;h3 id="">
+		Definitions
+		&lt;a href="#">
+			&lt;i class="fa fa-caret-up" aria-hidden="true">&lt;/i>
+		&lt;/a>
+	&lt;/h3>
+
+
+&lt;ul>
+&lt;li>The pronoun &lt;strong>I&lt;/strong>, and all other references to the first-person, refer to Currie Carmichael, the Cottage Painter, as well as any of my employees&lt;/li>
+&lt;li>The pronoun &lt;strong>you&lt;/strong>, and all other references to the second-person, refer to the client who hired me&lt;/li>
+&lt;li>The &lt;strong>Jobsite&lt;/strong>, as well as terms like &lt;strong>Onsite&lt;/strong>, refers to both the time and place where all contracted work will take place.
+&lt;ul>
+&lt;li>possibly several locations/timeframes&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The &lt;strong>Timeframe&lt;/strong> refers to the period of time during which all contracted work will take place
+&lt;ul>
+&lt;li>possibly discontinuous&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The &lt;strong>Estimate&lt;/strong> refers to the estimate you have received from Currie Carmichael&lt;/li>
+&lt;li>The &lt;strong>Invoice&lt;/strong> refers to the invoice you have received from Currie Carmichael&lt;/li>
+&lt;li>The &lt;strong>Daily Charge&lt;/strong> referred to the daily charge stated on your copy of the estimate/invoice&lt;/li>
+&lt;li>A &lt;strong>Season&lt;/strong> refers to a year that Cottage Painter was active
+&lt;ul>
+&lt;li>The &lt;strong>Current Season&lt;/strong> refers to 
+	2025
+
+
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+
+	&lt;h3 id="">
+		You Expect That
+		&lt;a href="#">
+			&lt;i class="fa fa-caret-up" aria-hidden="true">&lt;/i>
+		&lt;/a>
+	&lt;/h3>
+
+
+&lt;ul>
+&lt;li>The final price will reflect the estimated price
+&lt;ul>
+&lt;li>in most cases they are identical&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The work will be completed in a timely and professional manner&lt;/li>
+&lt;li>You will not be required to provide equipment&lt;/li>
+&lt;li>You will not be required to provide accommodation&lt;/li>
+&lt;li>You will not be required to provide sustenance&lt;/li>
+&lt;li>The jobsite will be left in a clean state when the job is complete&lt;/li>
+&lt;li>The jobsite will be left in a tidy state between work days
+&lt;ul>
+&lt;li>however, if the jobsite is not being used by anyone else except me, or if tidiness, for whatever reason is unimportant, I may
+leave the jobsite in a less then tidy state purely for efficiency reasons&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>All disputes will be dealt with in a reasonable and responsible manner&lt;/li>
+&lt;/ul>
+
+	&lt;h3 id="expectations">
+		I Expect That
+		&lt;a href="#">
+			&lt;i class="fa fa-caret-up" aria-hidden="true">&lt;/i>
+		&lt;/a>
+	&lt;/h3>
+
+
+&lt;ul>
+&lt;li>&lt;a href="#docking">Docking is available&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#doors">Doors will be left unlocked&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#electricity">Electricity will be available&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#estimates">Estimates will be updated every season&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#equipment">Equipment can be stored onsite&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#water">Running water is available&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ready">The jobsite will be ready when I arrive&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#timeframe">The timeframe will be respected&lt;/a>&lt;/li>
+&lt;/ul>
+
+	&lt;h5 id="docking">
+		Docking is available
+		&lt;a href="#expectations">
+			&lt;i class="fa fa-caret-up" aria-hidden="true">&lt;/i>
+		&lt;/a>
+	&lt;/h5>
+
+
+&lt;p>There will be a safe place at the jobsite for my boat to dock.&lt;/p></description></item></channel></rss>
