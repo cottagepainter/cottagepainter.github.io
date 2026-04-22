@@ -14,7 +14,7 @@ function deactivateButton(b) {
 function buttonFunc(e) {
 	var bid = e.target.id;
 	if(!bid) return
-
+	history.replaceState(null, "", "#" + bid);
 	for(var i=0; i<buttons.length; i++) {
 		var b = buttons.item(i);
 		if(b.id == bid)
@@ -35,3 +35,19 @@ function buttonFunc(e) {
 for(var i=0; i<buttons.length; i++) {
 	buttons.item(i).addEventListener("click", buttonFunc);
 }
+
+// the purpose of this function is to allow in-section linking between tabs
+// The number guarding is too allow non-section-reference links to work as normal
+// sections have numeric ids...anyways its sloppy but i dont care right now.
+function activateFromHash() {
+	var hash = window.location.hash.replace("#", "");
+	if(Number.isInteger(Number(hash))) {
+		var target = document.getElementById(hash);
+		if(target) {
+			buttonFunc({ target: target });
+		}
+	} 
+}
+
+window.addEventListener("hashchange", activateFromHash);
+activateFromHash();
